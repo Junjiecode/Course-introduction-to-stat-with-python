@@ -89,9 +89,9 @@
     ```
 
 
-    ### V. Python Functions: Explanation of Arguments
+#### V. Python Functions: Explanation of Arguments
 
-#### 1. Probability Mass Function (PMF)
+##### 1. Probability Mass Function (PMF)
 **Function: `binom.pmf(k, n, p)`**
 
 - **Arguments:**
@@ -107,7 +107,7 @@ prob = binom.pmf(7, 10, 0.5)
 print(prob)
 ```
 
-#### 2. Cumulative Distribution Function (CDF)
+##### 2. Cumulative Distribution Function (CDF)
 **Function: `binom.cdf(k, n, p)`**
 
 - **Arguments:**
@@ -123,7 +123,7 @@ cumulative_prob = binom.cdf(7, 10, 0.5)
 print(cumulative_prob)
 ```
 
-#### 3. Random Variate Sampling (RVS)
+##### 3. Random Variate Sampling (RVS)
 **Function: `uniform.rvs(loc=0, scale=1, size=1)` and `binom.rvs(n, p, size=1)`**
 
 - **Uniform Distribution (`uniform.rvs`)**:
